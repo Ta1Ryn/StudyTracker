@@ -24,7 +24,7 @@ do
         case 2:
         foreach(Course item in courses)
             {
-            Console.WriteLine($"курс {course.Name}");
+            Console.WriteLine($"курс {item.Name}");
             }
             break;
         case 3:
